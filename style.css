@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Avenir Next Condensed";
+	text-decoration: none;
+	background-image: url("img/laptop.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 2%;
+	
+}
+
+.mainHeader nav {
+	background-color: white;
+	height: 40px;
+}
+
+.mainHeader nav ul li {
+	list-style: none;
+	margin: 0 auto;
+	float: left;
+	display: inline-block;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: black;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+	text-decoration: none;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader .active a:visited {
+		background-color: #f6f6f6;
+		text-shadow: none;
+		-webkit-transition: all 0.2s ease-in-out;
+}
+
+.mainHeader nav ul li a {
+	border-radius: 5px;
+}
+
+.welcome {
+	color: white;
+	padding: 60px 0px 40px 0px;
+	font-size:25px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 25px;
+	font-style: bold;
+	color: black;
+}
+
+h3 {
+	font-size: 23px;
+	letter-spacing: 2px;
+}
+
+.about {
+	width: 84%;
+	height: 450px;
+	padding: 5% 8% 5% 8%;
+	margin: 25px 0px 50px 0px;
+	background-color: white;
+	color: black;
+}
+
+.photo {
+	float:left;
+	margin: 0px 40px 0px 0px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.socialmedia {
+	width: 90%;
+	padding: 5%;
+	margin: 25px 0px 50px 0px;
+	background-color: white;
+	font color: black;
+	text-align: center;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+.list-inline li {
+	display: inline-block;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-bottom: 0px;
+}
+
+.social-icons .icon {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+.social-icons .icon:hover, .social-icons .icon:active { 
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+
+footer {
+	padding-top: 80px;
+}
+
+		
